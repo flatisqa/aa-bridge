@@ -52,7 +52,7 @@ The full walkthrough with a screenshot for every step is in the [guide](https://
 
 **Driving restrictions.** AA Bridge does not remove Android Auto's restrictions while the car is moving. Using it while driving is your responsibility and may be illegal where you live.
 
-The app is not affiliated with Google. The release APK is built with R8 (shrinking and obfuscation). The source code is not published.
+The app is not affiliated with Google. The source code is not published.
 
 ## License
 
