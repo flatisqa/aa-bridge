@@ -1,6 +1,6 @@
 # AA Bridge
 
-[English](README.md) · [Русский](README.ru.md) · [Пошаговая инструкция](https://flatisqa.github.io/aa-bridge/) · [Скачать](https://github.com/flatisqa/aa-bridge/releases/latest)
+[English](README.md) · [Русский](README.ru.md) · [Пошаговая инструкция](https://flatisqa.github.io/aa-bridge/) · [Скачать](https://github.com/flatisqa/aa-bridge/releases/latest) · [Задать вопрос](https://t.me/aabridge/10)
 
 Приложение для Android, которое выводит на экран Android Auto приложения, которых там нет по умолчанию: плееры, браузеры, VPN-клиенты и другие.
 
@@ -55,6 +55,10 @@ AA Bridge виден в лаунчере Android Auto как обычное пр
 **Ограничения при движении.** AA Bridge не снимает ограничения Android Auto во время движения. Использовать его за рулём или нет, решаете вы сами, и в вашей стране это может быть запрещено.
 
 Приложение не связано с Google. Исходный код не опубликован.
+
+## Задать вопрос
+
+Вопросы и проблемы с установкой: [Telegram](https://t.me/aabridge/10).
 
 ## Лицензия
 
