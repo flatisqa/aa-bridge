@@ -50,7 +50,7 @@ The full walkthrough with a screenshot for every step is in the [guide](https://
 
 **Drive mode** lasts as long as the app process is alive. Swiping the app out of Recents or rebooting the phone turns it off, and you need to enable it again with Wi-Fi.
 
-**Leaving an app started through AA Bridge.** To exit an app that was started through AA Bridge (from the list or via a wrapper), tap the top edge of the car screen three times quickly. A menu with *Back* and *Close* opens; there are no on-screen buttons. This works only for apps started through AA Bridge and does not affect other Android Auto apps.
+**Leaving an app started from the AA Bridge list.** Tap the top edge of the car screen three times quickly. A menu with *Back* and *Close* opens; there are no on-screen buttons. This applies only to apps launched from the list. A wrapper runs as a standalone app and does not have this menu.
 
 **Driving restrictions.** AA Bridge does not remove Android Auto's restrictions while the car is moving. Using it while driving is your responsibility and may be illegal where you live.
 

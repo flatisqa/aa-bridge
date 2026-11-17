@@ -102,7 +102,10 @@
     border-radius: 8px;
     text-decoration: none;
     margin: 10px 0;
+    transition: background .15s, transform .15s, box-shadow .15s;
   }
+  .btn-download:hover { background: #7bbcff; transform: translateY(-1px); box-shadow: 0 4px 14px rgba(79,163,255,.35); }
+  .btn-download:active { transform: translateY(0); box-shadow: none; }
   .btn-ask {
     display: inline-block;
     border: 1px solid var(--accent);
@@ -112,7 +115,10 @@
     border-radius: 8px;
     text-decoration: none;
     margin: 10px 0 10px 8px;
+    transition: background .15s, color .15s, transform .15s;
   }
+  .btn-ask:hover { background: var(--accent); color: #04121f; transform: translateY(-1px); }
+  .btn-ask:active { transform: translateY(0); }
   code {
     background: #0a0c10;
     padding: 2px 6px;
@@ -127,6 +133,8 @@
     padding: 30px 20px;
     font-size: 13px;
   }
+  .lang-switch button { transition: background .15s, border-color .15s; }
+  .lang-switch button:not(.active):hover { border-color: var(--accent); background: #1f2430; }
 </style>
 </head>
 <body>
@@ -257,8 +265,8 @@
   <p>Обе иконки на главном экране машины рядом с обычными приложениями:</p>
   <img loading="lazy" src="assets/screenshots/22-car-home-screen-icon.webp" alt="Иконки на главном экране машины">
 
-  <h2>Выход из приложения, запущенного через AA Bridge</h2>
-  <p>Чтобы выйти из приложения, запущенного через AA Bridge (из списка или через обёртку), быстро тапните три раза по самой верхней полоске экрана машины. Откроется скрытое меню с кнопками «Назад» и «Закрыть». Это работает только для приложений, запущенных через AA Bridge; на остальные приложения Android Auto (Карты, Музыка и т. д.) не влияет.</p>
+  <h2>Выход из приложения, запущенного из списка AA Bridge</h2>
+  <p>Чтобы выйти из приложения, которое вы открыли из списка AA Bridge, быстро тапните три раза по самой верхней полоске экрана машины. Откроется скрытое меню с кнопками «Назад» и «Закрыть». Это относится только к приложениям из списка. Обёртка работает как самостоятельное приложение в машине, и этого меню в ней нет.</p>
 
   <h2>Задать вопрос</h2>
   <p>Вопросы и проблемы с установкой можно задать в <a href="https://t.me/aabridge/10">Telegram</a>.</p>
@@ -380,8 +388,8 @@
   <p>Both kinds of icons sit on the car's home screen next to regular apps:</p>
   <img loading="lazy" src="assets/screenshots/22-car-home-screen-icon.webp" alt="Icons on the car home screen">
 
-  <h2>Exiting an app started through AA Bridge</h2>
-  <p>To exit an app that was started through AA Bridge (from the list or via a wrapper), tap the very top strip of the car screen three times quickly. A hidden menu with "Back" and "Close" buttons opens. This works only for apps started through AA Bridge; it does not affect other Android Auto apps (Maps, Music, etc.).</p>
+  <h2>Exiting an app started from the AA Bridge list</h2>
+  <p>To exit an app that you opened from the AA Bridge list, tap the very top strip of the car screen three times quickly. A hidden menu with "Back" and "Close" buttons opens. This applies only to apps launched from the list. A wrapper runs as a standalone app in the car and does not have this menu.</p>
 
   <h2>Ask a question</h2>
   <p>Questions and installation problems are welcome on <a href="https://t.me/aabridge/7">Telegram</a>.</p>
