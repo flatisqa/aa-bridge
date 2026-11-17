@@ -6,9 +6,9 @@ An Android app that shows apps on the Android Auto screen that Android Auto does
 
 <table>
   <tr>
-    <td><img src="docs/assets/screenshots/14-main-screen-app-list.png" width="200" alt="App list on the phone"></td>
-    <td><img src="docs/assets/screenshots/20-car-app-list.png" width="200" alt="App list in the car"></td>
-    <td><img src="docs/assets/screenshots/21-car-wrapper-direct-open.png" width="200" alt="A wrapper opened in the car"></td>
+    <td><img src="docs/assets/screenshots/14-main-screen-app-list.webp" width="200" alt="App list on the phone"></td>
+    <td><img src="docs/assets/screenshots/20-car-app-list.webp" width="200" alt="App list in the car"></td>
+    <td><img src="docs/assets/screenshots/21-car-wrapper-direct-open.webp" width="200" alt="A wrapper opened in the car"></td>
   </tr>
   <tr>
     <td align="center">Phone</td>
