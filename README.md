@@ -26,6 +26,8 @@ There are two ways to open an app:
 - **AA Bridge icon.** Opens a searchable list of all apps on the phone (Favourites / Recent / All). Pick one and it opens full screen.
 - **Wrapper.** A small separate APK generated on the phone for one app, with its own icon in the car launcher. It opens that app directly.
 
+A wrapper is optional. Any app on the phone can be launched straight from the AA Bridge list in the car, without installing anything extra.
+
 ## Requirements
 
 - Android 10 or newer (`minSdk 29`). Tested on one phone only: Android 16, HyperOS.
