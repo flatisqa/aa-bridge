@@ -1,11 +1,15 @@
 # AA Bridge
 
-📖 **[Открыть подробную инструкцию со скриншотами / Open the full illustrated guide](https://flatisqa.github.io/aa-bridge/)** — страница сама покажет русский или английский текст в зависимости от языка вашего браузера / the page auto-detects your browser language.
-
-📦 **[Скачать APK / Download APK](../../releases/latest)** — последний релиз, раздел Assets.
+<p>
+  <a href="#ru"><strong>🇷🇺 Читать на русском</strong></a> &nbsp;|&nbsp;
+  <a href="#en"><strong>🇬🇧 Read in English</strong></a> &nbsp;|&nbsp;
+  <a href="https://flatisqa.github.io/aa-bridge/"><strong>📖 Сайт с инструкцией / Guide website (auto RU/EN)</strong></a> &nbsp;|&nbsp;
+  <a href="../../releases/latest"><strong>📦 Скачать APK / Download APK</strong></a>
+</p>
 
 ---
 
+<a id="ru"></a>
 ## 🇷🇺 Русский
 
 ### Что это такое
@@ -36,27 +40,27 @@
 1. **Скачайте APK** по ссылке выше и откройте файл в Загрузках.
 2. Появится предупреждение Play Защиты (см. выше) — «Подробнее» → «Установить без проверки».
 
-   ![Предупреждение Play Защиты](assets/screenshots/01-play-protect-warning.png)
+   <img src="assets/screenshots/01-play-protect-warning.png" alt="Предупреждение Play Защиты" width="300">
 
 3. Если Android попросит разрешить установку из этого источника — разрешите (переключатель в системных настройках).
 
-   ![Разрешение на установку](assets/screenshots/03-unknown-sources-setting.png)
+   <img src="assets/screenshots/03-unknown-sources-setting.png" alt="Разрешение на установку" width="300">
 
 4. Откроется экран онбординга AA Bridge с чеклистом условий.
 
-   ![Чеклист онбординга](assets/screenshots/02-onboarding-checklist.png)
+   <img src="assets/screenshots/02-onboarding-checklist.png" alt="Чеклист онбординга" width="300">
 
 5. Останется пункт **«Unknown sources» в самом Android Auto** — его нужно включить отдельно: в приложении Android Auto на телефоне откройте Настройки → несколько раз нажмите на номер версии внизу, откроется меню «Для разработчиков» → включите переключатель «Неизвестные источники».
 
-   ![Настройки для разработчиков в Android Auto](assets/screenshots/04-android-auto-dev-settings.png)
+   <img src="assets/screenshots/04-android-auto-dev-settings.png" alt="Настройки для разработчиков в Android Auto" width="300">
 
 6. Вернитесь в AA Bridge и нажмите «Я включил Unknown sources в Android Auto».
 
-   ![Подтверждение в онбординге](assets/screenshots/05-onboarding-confirm-button.png)
+   <img src="assets/screenshots/05-onboarding-confirm-button.png" alt="Подтверждение в онбординге" width="300">
 
 7. Разрешите уведомления — через них придёт код сопряжения.
 
-   ![Запрос разрешения на уведомления](assets/screenshots/06-app-list-notification-permission.png)
+   <img src="assets/screenshots/06-app-list-notification-permission.png" alt="Запрос разрешения на уведомления" width="300">
 
 ### Сопряжение с телефоном (один раз)
 
@@ -64,31 +68,31 @@
 
 8. Появится диалог с инструкцией по сопряжению.
 
-   ![Диалог сопряжения](assets/screenshots/07-pairing-instructions-dialog.png)
+   <img src="assets/screenshots/07-pairing-instructions-dialog.png" alt="Диалог сопряжения" width="300">
 
 9. Нажмите «Открыть настройки» → откроется системный экран «Беспроводная отладка» → нажмите «Подключить устройство с помощью кода подключения».
 
-   ![Экран беспроводной отладки](assets/screenshots/08-wireless-debugging-settings.png)
+   <img src="assets/screenshots/08-wireless-debugging-settings.png" alt="Экран беспроводной отладки" width="300">
 
 10. На экране появится 6-значный код.
 
-    ![Код сопряжения](assets/screenshots/09-pairing-code.png)
+    <img src="assets/screenshots/09-pairing-code.png" alt="Код сопряжения" width="300">
 
 11. Откройте шторку уведомлений, найдите уведомление **«AA Bridge: сопряжение»**, введите туда код из п.10 и нажмите стрелку отправки.
 
-    ![Уведомление с полем для кода](assets/screenshots/10-paired-notification.png)
+    <img src="assets/screenshots/10-paired-notification.png" alt="Уведомление с полем для кода" width="300">
 
 12. Если всё верно — появится системный диалог **«Обновить приложение?»**. Нажмите **«Обновить»**.
 
-    ![Диалог обновления](assets/screenshots/11-update-app-dialog.png)
+    <img src="assets/screenshots/11-update-app-dialog.png" alt="Диалог обновления" width="300">
 
 13. Снова появится предупреждение Play Защиты — опять «Подробнее» → «Установить без проверки» (см. предупреждение выше, **не «Проверить»**).
 
-    ![Повторное предупреждение Play Защиты](assets/screenshots/12-play-protect-second.png)
+    <img src="assets/screenshots/12-play-protect-second.png" alt="Повторное предупреждение Play Защиты" width="300">
 
 14. Готово — AA Bridge покажет, что запись об установке исправлена, и теперь Android Auto будет видеть приложение правильно.
 
-    ![Запись об установке исправлена](assets/screenshots/13-installer-record-fixed.png)
+    <img src="assets/screenshots/13-installer-record-fixed.png" alt="Запись об установке исправлена" width="300">
 
 Зачем нужен этот шаг: Android Auto показывает в машине только приложения, которые были установлены через Google Play. Шаги 12–14 — это самообновление AA Bridge через системный установщик с пометкой «из Google Play», без чего приложение не появилось бы в автомобиле вообще.
 
@@ -96,7 +100,7 @@
 
 После сопряжения откроется главный экран со списком всех приложений телефона.
 
-![Главный экран со списком приложений](assets/screenshots/14-main-screen-app-list.png)
+<img src="assets/screenshots/14-main-screen-app-list.png" alt="Главный экран со списком приложений" width="300">
 
 - Поиск и вкладки «Все / Доступно / Добавленные / Уже в AA» — чтобы быстро найти нужное приложение.
 - У каждого приложения кнопка **«Добавить»** — создаёт отдельную иконку-обёртку (см. ниже).
@@ -106,15 +110,15 @@
 
 15. Нажмите «Добавить» у нужного приложения — появится объяснение разницы между запуском через общий список и отдельной иконкой.
 
-    ![Пояснение при добавлении обёртки](assets/screenshots/15-add-wrapper-explainer.png)
+    <img src="assets/screenshots/15-add-wrapper-explainer.png" alt="Пояснение при добавлении обёртки" width="300">
 
 16. Снова будет предупреждение Play Защиты — так же «Подробнее» → «Установить без проверки» (**не «Проверить»**).
 
-    ![Play Защита для обёртки](assets/screenshots/16-wrapper-play-protect.png)
+    <img src="assets/screenshots/16-wrapper-play-protect.png" alt="Play Защита для обёртки" width="300">
 
 17. Готово — иконка добавлена.
 
-    ![Обёртка добавлена](assets/screenshots/17-wrapper-added-done.png)
+    <img src="assets/screenshots/17-wrapper-added-done.png" alt="Обёртка добавлена" width="300">
 
 ### Включение режима движения
 
@@ -122,11 +126,11 @@
 
 18. Нажмите «Включить режим движения» на главном экране и подтвердите.
 
-    ![Подтверждение режима движения](assets/screenshots/18-drive-mode-confirm.png)
+    <img src="assets/screenshots/18-drive-mode-confirm.png" alt="Подтверждение режима движения" width="300">
 
 19. Готово: Wi-Fi больше не нужен, можно ехать в машину.
 
-    ![Режим движения включён](assets/screenshots/19-drive-mode-enabled.png)
+    <img src="assets/screenshots/19-drive-mode-enabled.png" alt="Режим движения включён" width="300">
 
 > ⚠️ Режим движения живёт, пока жив процесс приложения. Если его смахнуть из недавних приложений или перезагрузить телефон/машину — режим придётся включить заново (Wi-Fi дома снова понадобится на минуту).
 
@@ -136,15 +140,15 @@
 
 - **Иконка AA Bridge** на экране машины открывает список всех приложений телефона — как на шаге с главным экраном, но уже в машине.
 
-  ![Список приложений в машине](assets/screenshots/20-car-app-list.png)
+  <img src="assets/screenshots/20-car-app-list.png" alt="Список приложений в машине" width="300">
 
 - **Иконка обёртки** (например AdGuard VPN) открывает это приложение сразу, без списка — выглядит как обычное приложение для авто.
 
-  ![Обёртка открылась напрямую](assets/screenshots/21-car-wrapper-direct-open.png)
+  <img src="assets/screenshots/21-car-wrapper-direct-open.png" alt="Обёртка открылась напрямую" width="300">
 
 - Обе иконки видны рядом с обычными приложениями на главном экране машины:
 
-  ![Иконки на главном экране машины](assets/screenshots/22-car-home-screen-icon.png)
+  <img src="assets/screenshots/22-car-home-screen-icon.png" alt="Иконки на главном экране машины" width="300">
 
 ### Выход из приложения в машине
 
@@ -160,6 +164,7 @@ MIT — см. [LICENSE](LICENSE).
 
 ---
 
+<a id="en"></a>
 ## 🇬🇧 English
 
 ### What is this
@@ -190,27 +195,27 @@ This rule applies to *every* such warning — on first install, on updates, and 
 1. **Download the APK** from the link above and open it from your Downloads.
 2. A Play Protect warning appears (see above) — "Details" → "Install without scanning".
 
-   ![Play Protect warning](assets/screenshots/01-play-protect-warning.png)
+   <img src="assets/screenshots/01-play-protect-warning.png" alt="Play Protect warning" width="300">
 
 3. If Android asks to allow installs from this source, allow it (a toggle in system settings).
 
-   ![Allow install permission](assets/screenshots/03-unknown-sources-setting.png)
+   <img src="assets/screenshots/03-unknown-sources-setting.png" alt="Allow install permission" width="300">
 
 4. The AA Bridge onboarding screen opens with a checklist of requirements.
 
-   ![Onboarding checklist](assets/screenshots/02-onboarding-checklist.png)
+   <img src="assets/screenshots/02-onboarding-checklist.png" alt="Onboarding checklist" width="300">
 
 5. One item remains: **"Unknown sources" inside Android Auto itself** — enable it separately: open the Android Auto app on your phone, go to Settings, tap the version number near the bottom several times to unlock "Developer settings", then enable the "Unknown sources" toggle there.
 
-   ![Android Auto developer settings](assets/screenshots/04-android-auto-dev-settings.png)
+   <img src="assets/screenshots/04-android-auto-dev-settings.png" alt="Android Auto developer settings" width="300">
 
 6. Go back to AA Bridge and tap "I enabled Unknown sources in Android Auto".
 
-   ![Onboarding confirm button](assets/screenshots/05-onboarding-confirm-button.png)
+   <img src="assets/screenshots/05-onboarding-confirm-button.png" alt="Onboarding confirm button" width="300">
 
 7. Allow notifications — the pairing code arrives through one.
 
-   ![Notification permission request](assets/screenshots/06-app-list-notification-permission.png)
+   <img src="assets/screenshots/06-app-list-notification-permission.png" alt="Notification permission request" width="300">
 
 ### Pairing with your phone (one-time)
 
@@ -218,31 +223,31 @@ The app needs access to the phone's own "Wireless debugging" — a one-time setu
 
 8. A dialog with pairing instructions appears.
 
-   ![Pairing instructions dialog](assets/screenshots/07-pairing-instructions-dialog.png)
+   <img src="assets/screenshots/07-pairing-instructions-dialog.png" alt="Pairing instructions dialog" width="300">
 
 9. Tap "Open settings" → the system "Wireless debugging" screen opens → tap "Pair device with pairing code".
 
-   ![Wireless debugging screen](assets/screenshots/08-wireless-debugging-settings.png)
+   <img src="assets/screenshots/08-wireless-debugging-settings.png" alt="Wireless debugging screen" width="300">
 
 10. A 6-digit code appears on screen.
 
-    ![Pairing code](assets/screenshots/09-pairing-code.png)
+    <img src="assets/screenshots/09-pairing-code.png" alt="Pairing code" width="300">
 
 11. Open the notification shade, find the **"AA Bridge: pairing"** notification, type the code from step 10 into its field and tap the send arrow.
 
-    ![Notification with code field](assets/screenshots/10-paired-notification.png)
+    <img src="assets/screenshots/10-paired-notification.png" alt="Notification with code field" width="300">
 
 12. If correct, a system **"Update app?"** dialog appears. Tap **"Update"**.
 
-    ![Update app dialog](assets/screenshots/11-update-app-dialog.png)
+    <img src="assets/screenshots/11-update-app-dialog.png" alt="Update app dialog" width="300">
 
 13. Another Play Protect warning appears — again "Details" → "Install without scanning" (see the warning above, **not "Check"**).
 
-    ![Second Play Protect warning](assets/screenshots/12-play-protect-second.png)
+    <img src="assets/screenshots/12-play-protect-second.png" alt="Second Play Protect warning" width="300">
 
 14. Done — AA Bridge confirms the install record is fixed, and Android Auto will now recognize the app correctly.
 
-    ![Installer record fixed](assets/screenshots/13-installer-record-fixed.png)
+    <img src="assets/screenshots/13-installer-record-fixed.png" alt="Installer record fixed" width="300">
 
 Why this step exists: Android Auto only shows apps in the car that were installed through Google Play. Steps 12–14 make AA Bridge update itself through the system installer tagged as "from Google Play" — without this, the app would never appear in the car at all.
 
@@ -250,7 +255,7 @@ Why this step exists: Android Auto only shows apps in the car that were installe
 
 After pairing, the main screen opens with a list of every app on your phone.
 
-![Main screen app list](assets/screenshots/14-main-screen-app-list.png)
+<img src="assets/screenshots/14-main-screen-app-list.png" alt="Main screen app list" width="300">
 
 - Search and the "All / Available / Added / Already in AA" tabs help you find an app quickly.
 - Every app has an **"Add"** button that creates a separate wrapper icon (see below).
@@ -260,15 +265,15 @@ After pairing, the main screen opens with a list of every app on your phone.
 
 15. Tap "Add" next to the app you want — an explanation of the difference between the shared list and a dedicated icon appears.
 
-    ![Wrapper explainer](assets/screenshots/15-add-wrapper-explainer.png)
+    <img src="assets/screenshots/15-add-wrapper-explainer.png" alt="Wrapper explainer" width="300">
 
 16. Another Play Protect warning appears — again "Details" → "Install without scanning" (**not "Check"**).
 
-    ![Wrapper Play Protect warning](assets/screenshots/16-wrapper-play-protect.png)
+    <img src="assets/screenshots/16-wrapper-play-protect.png" alt="Wrapper Play Protect warning" width="300">
 
 17. Done — the icon has been added.
 
-    ![Wrapper added](assets/screenshots/17-wrapper-added-done.png)
+    <img src="assets/screenshots/17-wrapper-added-done.png" alt="Wrapper added" width="300">
 
 ### Enabling drive mode
 
@@ -276,11 +281,11 @@ So the app keeps working in the car without a constant Wi-Fi connection, enable 
 
 18. Tap "Enable drive mode" on the main screen and confirm.
 
-    ![Drive mode confirmation](assets/screenshots/18-drive-mode-confirm.png)
+    <img src="assets/screenshots/18-drive-mode-confirm.png" alt="Drive mode confirmation" width="300">
 
 19. Done: Wi-Fi is no longer needed, you can head to the car.
 
-    ![Drive mode enabled](assets/screenshots/19-drive-mode-enabled.png)
+    <img src="assets/screenshots/19-drive-mode-enabled.png" alt="Drive mode enabled" width="300">
 
 > ⚠️ Drive mode stays on only as long as the app's process is alive. Swiping it away from Recents, or rebooting the phone/car, turns it off — you'll need to re-enable it (Wi-Fi at home, briefly, again).
 
@@ -290,15 +295,15 @@ Connect your phone to Android Auto as usual (cable or wireless).
 
 - The **AA Bridge icon** on the car screen opens the same app list as on the phone's main screen, now in the car.
 
-  ![App list in the car](assets/screenshots/20-car-app-list.png)
+  <img src="assets/screenshots/20-car-app-list.png" alt="App list in the car" width="300">
 
 - A **wrapper icon** (e.g. AdGuard VPN) opens that app directly, with no list — it looks like a regular car app.
 
-  ![Wrapper opened directly](assets/screenshots/21-car-wrapper-direct-open.png)
+  <img src="assets/screenshots/21-car-wrapper-direct-open.png" alt="Wrapper opened directly" width="300">
 
 - Both kinds of icons sit right next to regular apps on the car's home screen:
 
-  ![Icons on the car home screen](assets/screenshots/22-car-home-screen-icon.png)
+  <img src="assets/screenshots/22-car-home-screen-icon.png" alt="Icons on the car home screen" width="300">
 
 ### Exiting the app in the car
 
