@@ -28,6 +28,8 @@ There are two ways to open an app:
 
 A wrapper is optional. Any app on the phone can be launched straight from the AA Bridge list in the car, without installing anything extra.
 
+To install a wrapper for an app, drive mode has to be turned off. If you need to launch an app without turning drive mode off (for example on the road or without Wi-Fi), use the AA Bridge app list in the car: all phone apps are available there at once.
+
 ## Requirements
 
 - Android 10 or newer (`minSdk 29`). Tested on one phone only: Android 16, HyperOS.
