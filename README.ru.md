@@ -1,6 +1,6 @@
 # AA Bridge
 
-[English](README.md) · [Русский](README.ru.md) · [Пошаговая инструкция](https://flatisqa.github.io/aa-bridge/) · [Скачать](https://github.com/flatisqa/aa-bridge/releases/latest) · [Задать вопрос](https://t.me/aabridge/10)
+[<img src="docs/assets/icons/flag-gb.svg" height="16" alt=""> English](README.md) &nbsp;·&nbsp; [<img src="docs/assets/icons/flag-ru.svg" height="16" alt=""> Русский](README.ru.md) &nbsp;·&nbsp; [<img src="docs/assets/icons/book.svg" height="16" alt=""> Пошаговая инструкция](https://flatisqa.github.io/aa-bridge/) &nbsp;·&nbsp; [<img src="docs/assets/icons/download.svg" height="16" alt=""> Скачать](https://github.com/flatisqa/aa-bridge/releases/latest) &nbsp;·&nbsp; [<img src="docs/assets/icons/comment.svg" height="16" alt=""> Задать вопрос](https://t.me/aabridge/10)
 
 Приложение для Android, которое выводит на экран Android Auto приложения, которых там нет по умолчанию: плееры, браузеры, VPN-клиенты и другие.
 

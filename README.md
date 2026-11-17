@@ -1,6 +1,6 @@
 # AA Bridge
 
-[English](README.md) · [Русский](README.ru.md) · [Step-by-step guide](https://flatisqa.github.io/aa-bridge/) · [Download](https://github.com/flatisqa/aa-bridge/releases/latest) · [Ask a question](https://t.me/aabridge/7)
+[<img src="docs/assets/icons/flag-gb.svg" height="16" alt=""> English](README.md) &nbsp;·&nbsp; [<img src="docs/assets/icons/flag-ru.svg" height="16" alt=""> Русский](README.ru.md) &nbsp;·&nbsp; [<img src="docs/assets/icons/book.svg" height="16" alt=""> Step-by-step guide](https://flatisqa.github.io/aa-bridge/) &nbsp;·&nbsp; [<img src="docs/assets/icons/download.svg" height="16" alt=""> Download](https://github.com/flatisqa/aa-bridge/releases/latest) &nbsp;·&nbsp; [<img src="docs/assets/icons/comment.svg" height="16" alt=""> Ask a question](https://t.me/aabridge/7)
 
 An Android app that shows apps on the Android Auto screen that Android Auto does not list on its own: media players, browsers, VPN clients and so on.
 
