@@ -1,8 +1,8 @@
 # AA Bridge
 
 <p>
-  <a href="#ru"><strong>🇷🇺 Читать на русском</strong></a> &nbsp;|&nbsp;
-  <a href="#en"><strong>🇬🇧 Read in English</strong></a> &nbsp;|&nbsp;
+  <a href="#user-content-ru"><strong>🇷🇺 Читать на русском</strong></a> &nbsp;|&nbsp;
+  <a href="#user-content-en"><strong>🇬🇧 Read in English</strong></a> &nbsp;|&nbsp;
   <a href="https://flatisqa.github.io/aa-bridge/"><strong>📖 Сайт с инструкцией / Guide website (auto RU/EN)</strong></a> &nbsp;|&nbsp;
   <a href="../../releases/latest"><strong>📦 Скачать APK / Download APK</strong></a>
 </p>
