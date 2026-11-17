@@ -32,7 +32,7 @@ To install a wrapper for an app, drive mode has to be turned off. If you need to
 
 ## Requirements
 
-- Android 10 or newer (`minSdk 29`). Tested on one phone only: Android 16, HyperOS.
+- Android 11 or newer. Tested on one phone only: Android 16, HyperOS.
 - Android Auto with *Unknown sources* enabled in its developer settings.
 - Wi-Fi for the one-time setup (any network).
 
